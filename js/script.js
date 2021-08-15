@@ -15,14 +15,18 @@ const submitBtn = document.getElementById('submit-btn');
 submitBtn.addEventListener('click', function () {
     const nameText = names.value;
     showMovieNames.innerText = nameText;
+    names.value = '';
 
     const authorText = author.value;
     showMovieAuthor.innerText = authorText;
+    author.value = '';
 
     const desText = des.value;
     showMovieDes.innerText = desText;
+    des.value = '';
 
     const yearText = year.value;
     showMovieYear.innerText = yearText;
+    year.value = '';
 })
 
