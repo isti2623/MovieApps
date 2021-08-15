@@ -20,32 +20,34 @@
 
         <div class=" w-50 ms-2  row g-3">
             <div class="col ">
-                <input type="text" class="form-control" placeholder="Movie Name" aria-label="First name">
+                <input id="names" type="text" class="form-control" placeholder="Movie Name" aria-label="First name">
             </div>
             <div class="col ">
-                <input type="text" class="form-control" placeholder="Movie Author" aria-label="First name">
+                <input id="author" type="text" class="form-control" placeholder="Movie Author" aria-label="First name">
             </div>
         </div>
         <div class=" mt-5  w-50 ms-2  row g-3">
             <div class="col ">
-                <input type="text" class="form-control" placeholder="Movie Description" aria-label="First name">
+                <input id="des" type="text" class="form-control" placeholder="Movie Description"
+                    aria-label="First name">
+
             </div>
             <div class="col ">
-                <input type="text" class="form-control" placeholder="Movie Year" aria-label="First name">
+                <input id="year" type="text" class="form-control" placeholder="Movie Year" aria-label="First name">
             </div>
         </div>
-        <button type="button" class=" btn btn-danger mt-5 ms-3">Submit</button>
+        <button id="submit-btn" type="button" class=" btn btn-danger mt-5 ms-3">Submit</button>
     </section>
 
 
     <div class="container">
-        <div class="card border-success mb-3 mt-5" style="max-width: 18rem;">
-            <div class="card-header bg-transparent border-success">Movie Name</div>
-            <div class="card-body text-success">
-                <h5 class="card-title">Movie Author</h5>
-                <p class="card-text">Movie Description</p>
+        <div class="card border-danger mb-3 mt-5" style="max-width: 18rem;">
+            <div id="show-movie-names" class="card-header bg-transparent border-danger">Movie Name</div>
+            <div class="card-body text-danger">
+                <h5 id="show-movie-author" class="card-title">Movie Author</h5>
+                <p id="show-movie-des" class="card-text">Movie Description</p>
             </div>
-            <div class="card-footer bg-transparent border-success">Movie Year</div>
+            <div id="show-movie-year" class="card-footer bg-transparent border-danger">Movie Year</div>
         </div>
     </div>
 
